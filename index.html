@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Жол эрежелери — 7-класс</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #eef6ff;
+        color: #222;
+    }
+
+    header {
+        background: #1769aa;
+        color: white;
+        text-align: center;
+        padding: 25px;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 32px;
+    }
+
+    nav {
+        background: #0d47a1;
+        text-align: center;
+        padding: 12px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 12px;
+        font-weight: bold;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .card {
+        background: white;
+        border-radius: 15px;
+        padding: 20px;
+        margin: 20px 0;
+        box-shadow: 0 4px 12px #bbb;
+    }
+
+    .card img {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .rules {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 15px;
+    }
+
+    .rule {
+        background: #f5f9ff;
+        border-left: 6px solid #1976d2;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .warning {
+        background: #fff3cd;
+        border-left: 6px solid #ff9800;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    footer {
+        background: #0d47a1;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    button {
+        background: #1976d2;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background: #0d47a1;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🚦 Жол эрежелери</h1>
+    <p>7-класс үчүн окуу сайты</p>
+</header>
+
+<nav>
+    <a href="#rules">Эрежелер</a>
+    <a href="#signs">Белгилер</a>
+    <a href="#safety">Коопсуздук</a>
+    <a href="#test">Тест</a>
+</nav>
+
+<div class="container">
+
+    <section class="card">
+        <h2>🚸 Жол эрежеси деген эмне?</h2>
+        <p>
+            Жол эрежелери — жөө жүргүнчүлөргө, велосипедчилерге
+            жана айдоочуларга жолдо коопсуз жүрүүгө жардам берген эрежелер.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?auto=format&fit=crop&w=1000&q=80"
+             alt="Жол">
+    </section>
+
+    <section class="card" id="rules">
+        <h2>📚 Негизги эрежелер</h2>
+
+        <div class="rules">
+
+            <div class="rule">
+                <h3>🚶 Жөө жүргүнчү</h3>
+                <p>Жолду жөө адамдар өтүүчү жерден гана өтүүгө аракет кыл.</p>
+            </div>
+
+            <div class="rule">
+                <h3>🚦 Светофор</h3>
+                <p>Кызыл жарыкта токто, жашыл жарыкта жолду коопсуз өт.</p>
+            </div>
+
+            <div class="rule">
+                <h3>🚲 Велосипед</h3>
+                <p>Велосипед менен жүргөндө жол белгилерин жана коопсуздук эрежелерин сакта.</p>
+            </div>
+
+            <div class="rule">
+                <h3>🚗 Унаа</h3>
+                <p>Унаага отурганда коопсуздук курун тагынуу керек.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="card" id="signs">
+        <h2>🛑 Жол белгилери</h2>
+
+        <div class="rules">
+
+            <div class="rule">
+                <h3>🛑 STOP</h3>
+                <p>Унаа токтошу керек экенин билдирет.</p>
+            </div>
+
+            <div class="rule">
+                <h3>🚸 Жөө өтмөк</h3>
+                <p>Жөө адамдар өтө турган жерди көрсөтөт.</p>
+            </div>
+
+            <div class="rule">
+                <h3>⚠️ Эскертүү белгиси</h3>
+                <p>Алдыда коркунуч же өзгөчө жол шарттары болушу мүмкүн экенин эскертет.</p>
+            </div>
+
+            <div class="rule">
+                <h3>🚫 Тыюу салынат</h3>
+                <p>Белгилүү бир аракетти жасоого тыюу салынганын көрсөтөт.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="card" id="safety">
+        <h2>🦺 Коопсуздук эрежелери</h2>
+
+        <div class="warning">
+            <b>Эсиңде болсун!</b>
+            <ul>
+                <li>Жолду кесип өтөрдө эки жакты кара.</li>
+                <li>Телефонго алаксыба.</li>
+                <li>Светофордун сигналдарын сакта.</li>
+                <li>Жолдо чуркаба.</li>
+                <li>Унаанын алдынан күтүүсүз чыкпа.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="card" id="test">
+        <h2>📝 Кичине тест</h2>
+
+        <p><b>1. Кызыл светофор эмнени билдирет?</b></p>
+
+        <button onclick="answer('Туура! Кызыл жарыкта токтойбуз.')">
+            Токтоо
+        </button>
+
+        <button onclick="answer('Туура эмес. Кызыл жарыкта токтоо керек.')">
+            Жүрүү
+        </button>
+
+        <p id="result"></p>
+    </section>
+
+</div>
+
+<footer>
+    <p>🚦 Жол эрежелери | 7-класс</p>
+    <p>Коопсуздук — баарыбыз үчүн маанилүү!</p>
+</footer>
+
+<script>
+function answer(text) {
+    document.getElementById("result").innerText = text;
+}
+</script>
+
+</body>
+</html>
